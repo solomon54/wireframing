@@ -20,3 +20,35 @@ A wireframe is built from several core elements, each serving to define the user
 | **Navigation**        | The system used by the user to move around the application. This includes menus, links, search bars, and breadcrumbs.                                                 | Clarifies the user journey and information architecture. Example: Placing a persistent main navigation bar at the top with links to 'Home', 'Bookings', and 'Profile'.       |
 | **Content Placement** | The arrangement and labeling of information, focusing on hierarchy and readability. This includes placeholders for text and images, and defining their size/position. | Prioritizes crucial information. Example: A large, prominent placeholder for the main booking form, followed by smaller details like "Terms & Conditions" below the fold.    |
 | **Functionality**     | The interactive components that allow the user to perform tasks, such as buttons, form fields, sliders, and checkboxes.                                               | Defines user interaction and system capabilities. Example: A clearly labeled "Pay Now" button, a date picker component, or an input field with a defined character limit.    |
+
+## Types of Wireframes
+
+Wireframes are generally categorized into Two levels of detail, or "fidelity," which dictates their purpose and when they are used in the design lifecycle:
+
+### Low-Fidelity Wireframes
+
+These are the most basic, often drawn as quick sketches or using simple digital shapes.
+
+**Purpose**: To establish basic layout, structure, and content hierarchy very quickly. They focus solely on flow, not visual detail.
+
+**Elements**: Simple boxes, placeholder text (like "Header" or "Body Text"), and minimal labeling.
+
+**When Used**: During the initial brainstorming and conceptualization phase, especially when requirements are still fluid.
+
+### High-Fidelity Wireframes
+
+These are detailed, digital wireframes that are typically grayscale and built using specialized design tools.
+
+**Purpose**: To define specific components, use actual text content, and model detailed interaction flows. They serve as the bridge between concept and visual design.
+
+**Elements**: Typography variations, detailed labels, standardized component representations (e.g., icons, detailed headers), and specific grid measurements.
+
+**When Used**: After the initial structure is approved, used for user testing, creating interactive prototypes, and handing off to the development team before final visual design (UI).
+
+- **Analysis of Figma Prototype (Project-Airbnb)**
+
+The prototype linked is characteristic of a High-Fidelity Wireframe. Given its creation on a professional design platform like Figma and the complexity of an application like Airbnb, it would contain:
+
+**Specific Content**: Actual titles, pricing structures, and structured card components, rather than simple generic boxes.
+
+**Detailed Interaction**: It is likely designed to be a clickable, interactive prototype for testing complex user flows (search, filtering, booking paths), which requires a high level of functional detail.
