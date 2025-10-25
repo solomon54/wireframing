@@ -86,6 +86,7 @@ Wireframing is the process of creating a basic visual guide—a skeleton or blue
 Wireframes translate abstract requirements into concrete visual layouts, providing a clear path for the subsequent design phases (UI/UX).
 
 - **Visualizing Functional Requirements:** Wireframes show the position and interaction of features. For example, if the **Functional Requirement** is "The system shall allow a user to log in," the wireframe will show the placement of the username field, password field, and the "Login" button, making the requirement tangible.
+
 - **Integrating Non-Functional Requirements:** They ensure the design accounts for qualities like **Usability** (a Non-Functional Requirement). A wireframe can illustrate a simple, uncluttered layout, confirming that the system will be intuitive and easy to use.
 
 ### Facilitates Communication and Validation
@@ -93,5 +94,44 @@ Wireframes translate abstract requirements into concrete visual layouts, providi
 Wireframes serve as a powerful, shared artifact that dramatically improves communication among all project stakeholders—developers, designers, and clients.
 
 - **Early Validation of the SRS:** By providing a simple visual representation, wireframes allow stakeholders to validate the documented requirements (**Requirement Validation** step) early on. A stakeholder might see a workflow in the wireframe and realize they missed a step, leading to faster corrections than if they waited for the final coded interface.
+
 - **Team Alignment (Analysis & Negotiation):** They resolve potential conflicts during the **Analysis & Negotiation** phase. If a requirement states, "Display all customer details," a wireframe helps the team agree on _which_ details are most important and _how_ they should be laid out and prioritized. This visual consensus is far more effective than text-based descriptions alone.
+
 - **Clarity for Development:** Developers receive clear guidance on the required components, placement, and state transitions, significantly speeding up the development and testing cycles by removing guesswork.
+
+> A real-world scenario where **wireframing** identified a major usability issue is in the design of a **mobile e-commerce checkout flow**.
+
+---
+
+## Scenario: E-Commerce Mobile Checkout 🛍️
+
+### The Initial Requirement
+
+The initial **Requirement Analysis** for a new mobile shopping app specified a key **Functional Requirement**: "The user must be able to complete a purchase within a single page, without navigating away from the cart summary." This was based on the business goal of minimizing clicks and reducing abandonment rates.
+
+### Issue Identified via Wireframing
+
+During the **Requirement Validation** phase, a Business Analyst created a low-fidelity wireframe to visualize the single-page checkout.
+
+- **Wireframe Problem:** The wireframe showed that combining all necessary fields—shipping address, billing address, payment method selection, promotional code entry, and order summary—on a single small mobile screen resulted in an **excessively long, confusing, and overwhelming form**. This violated the **Non-Functional Requirement** of **Usability**. The lack of clear visual breaks or progress indicators caused cognitive overload, suggesting the single-page approach would actually _increase_ abandonment.
+
+### Resolution and Impact
+
+The wireframe provided the visual evidence needed to successfully **negotiate a change** to the core requirement.
+
+| Action Taken                                                                                                                                                   | Impact on Final Product                                                                                                                                                            |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Resolution:** The design was changed from a single-page form to a **multi-step, sequential flow** (e.g., Step 1: Shipping, Step 2: Payment, Step 3: Review). | The final product featured a clear, guided process that felt less intimidating. A progress bar was added, giving the user a sense of control and reducing anxiety.                 |
+| **How Wireframing Helped:** It allowed the team to test the layout and flow visually **in minutes** without writing a single line of code.                     | This change was implemented and validated early, avoiding weeks of developer rework and fixing an expensive usability flaw that would have been guaranteed to frustrate customers. |
+
+---
+
+## Conclusion: Wireframing’s Role in Usability
+
+Wireframing acts as the **first visual validation tool** in the SDLC. Its primary role in ensuring a user-friendly design is to:
+
+1.  **Expose Usability Flaws Early:** It quickly highlights issues with layout, information hierarchy, and workflow **before** expensive visual design and coding resources are committed.
+
+2.  **Facilitate Communication:** It provides a simple, shared language for all stakeholders to discuss the system's function and flow, ensuring the design aligns with the intended user experience defined in the requirements.
+
+> By prioritizing layout and interaction over aesthetics, wireframing ensures the final product is **functional, logical, and easy to use.**
