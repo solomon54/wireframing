@@ -52,3 +52,27 @@ The prototype linked is characteristic of a High-Fidelity Wireframe. Given its c
 **Specific Content**: Actual titles, pricing structures, and structured card components, rather than simple generic boxes.
 
 **Detailed Interaction**: It is likely designed to be a clickable, interactive prototype for testing complex user flows (search, filtering, booking paths), which requires a high level of functional detail.
+
+## Popular Wireframing Tools
+
+Wireframing can be done using various tools, ranging from simple pen and paper to powerful, collaborative digital software. The choice of tool usually depends on the fidelity required, the size of the team, and the stage of the project.
+
+### Some popular wireframing tools include:
+
+- **Sketch:** A vector-based design tool popular in the macOS ecosystem, known for its clean interface and strong plugin community. It is primarily used for mid-to-high fidelity mockups.
+
+- **Adobe XD**: Part of the Adobe Creative Cloud suite, offering powerful features for creating interactive prototypes and managing design systems.
+
+- **Balsamiq**: An intentionally low-fidelity tool designed to mimic the look of hand-drawn sketches, which helps keep the focus purely on structure and flow during early stages.
+
+#### Recommended Tool: Figma
+
+Figma has become the industry standard for modern product design and is highly recommended for wireframing due to its unique features:
+
+- **Cloud-Based Collaboration**: It allows multiple designers, developers, and stakeholders to work on the same file in real-time, removing version control issues and streamlining feedback loops.
+
+- **Prototyping**: Allows wireframes to easily transition into interactive prototypes without needing separate tools, making it excellent for user testing and demonstrating complex user flows.
+
+- **Flexibility**: It can be used effectively for all fidelity levels—from quick, low-fidelity grayscale structures to highly detailed, high-fidelity mockups.
+
+- **Design-to-Development Handoff**: Provides developers with necessary information like CSS snippets, component measurements, and asset export capabilities directly from the file, speeding up implementation.
